@@ -25,7 +25,6 @@ public List<String> readCsvFile() {
     } catch (IOException e) {
         e.printStackTrace();
     }
-    System.out.println(list);
     return list;
 
 }
